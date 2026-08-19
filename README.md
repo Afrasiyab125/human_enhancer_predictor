@@ -113,3 +113,4 @@ joblib.dump(scaler, f"{SAVE_DIR}/scaler.joblib")   # already in the notebook
 **Project** — Bioinformatics  
 Islamia College University Peshawar  
 Supervisor: Dr. Faheem
+---
