@@ -8,7 +8,7 @@ trained on 84-dimensional k-mer frequency features.
 
 ## How the Pipeline Works
 
-### Step 1 — Build the CSV dataset (`final_enhancer_pipeline_clean.ipynb`)
+### Step 1 — Build the CSV dataset (`enhancer_pipeline.ipynb`)
 
 | Sub-step | What happens |
 |----------|-------------|
@@ -25,7 +25,7 @@ trained on 84-dimensional k-mer frequency features.
 The 84 k-mer columns are named `kmer_A`, `kmer_C`, … `kmer_TTT` covering all
 4 mononucleotides, 16 dinucleotides, and 64 trinucleotides.
 
-### Step 2 — Train the FCNN (`final_kmer_classification_pipeline_fixed.ipynb`)
+### Step 2 — Train the FCNN (`kmer_classification_pipeline.ipynb`)
 
 ```
 Input(84) → Dense(512, relu) → BatchNorm → Dropout(0.3)
