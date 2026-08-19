@@ -112,4 +112,4 @@ Download both files from your Colab/Drive and place them next to `app.py`.
 
 **Project** — Bioinformatics  
 Islamia College University Peshawar  
-Supervisor: Dr. Fahim
+Supervisor: Dr. Faheem
