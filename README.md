@@ -102,7 +102,6 @@ joblib.dump(scaler, f"{SAVE_DIR}/scaler.joblib")   # already in the notebook
 
 # FCNN best weights — saved by ModelCheckpoint callback
 # Output: {SAVE_DIR}/fcnn_best.keras
-
 ```
 
 
@@ -113,4 +112,3 @@ joblib.dump(scaler, f"{SAVE_DIR}/scaler.joblib")   # already in the notebook
 **Project** — Bioinformatics  
 Islamia College University Peshawar  
 Supervisor: Dr. Faheem
----
