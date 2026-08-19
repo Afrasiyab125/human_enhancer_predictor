@@ -102,9 +102,9 @@ joblib.dump(scaler, f"{SAVE_DIR}/scaler.joblib")   # already in the notebook
 
 # FCNN best weights — saved by ModelCheckpoint callback
 # Output: {SAVE_DIR}/fcnn_best.keras
-```
 
-Download both files from your Colab/Drive and place them next to `app.py`.
+
+
 
 ---
 
